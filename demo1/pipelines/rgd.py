@@ -10,4 +10,11 @@ with Pipeline(args) as pipeline:
           table = Dataset.DBTSource(name = "customer", sourceName = "ayush_demos_demos", sourceType = "Table")
         )
     )
+    customer_1 = Process(
+        name = "customer_1",
+        properties = Dataset(
+          writeOptions = {"writeMode" : "overwrite"},
+          table = Dataset.DBTSource(name = "customer", sourceType = "Table", sourceName = "ayush_demos_demos")
+        )
+    )
 

@@ -44,6 +44,38 @@
         } ],
         "isCustomOutputSchema" : false
       }
+    },
+    "AJEUSWyyT7RrXC3nSfTR7" : {
+      "id" : "AJEUSWyyT7RrXC3nSfTR7",
+      "component" : "Dataset",
+      "metadata" : {
+        "label" : "customer_1",
+        "x" : -980,
+        "y" : -560,
+        "phase" : 0
+      },
+      "properties" : {
+        "writeOptions" : {
+          "writeMode" : "overwrite"
+        },
+        "table" : {
+          "name" : "customer",
+          "sourceType" : "Table",
+          "sourceName" : "ayush_demos_demos",
+          "alias" : ""
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "Jg0Y6Px7ZloqfpAn4-fy3",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "yBsBAJ_XKWcO9LQVsYZO3",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
     }
   },
   "connections" : [ ],
