@@ -1,0 +1,51 @@
+{
+  "id" : "rgd",
+  "metainfo" : {
+    "label" : "rgd",
+    "autoLayout" : false,
+    "version" : 1,
+    "configuration" : {
+      "schema" : {
+        "type" : "record",
+        "fields" : [ ]
+      }
+    },
+    "isTranspiledPipeline" : false,
+    "publishDiagnosticMetrics" : false
+  },
+  "processes" : {
+    "iStO-SKMotpLchrLzp4ai$$4DIk-OjZjW_E6WH6k7Tsr" : {
+      "id" : "iStO-SKMotpLchrLzp4ai$$4DIk-OjZjW_E6WH6k7Tsr",
+      "component" : "Dataset",
+      "metadata" : {
+        "label" : "customer",
+        "x" : -280,
+        "y" : -280,
+        "phase" : 0
+      },
+      "properties" : {
+        "writeOptions" : {
+          "writeMode" : "overwrite"
+        },
+        "table" : {
+          "name" : "customer",
+          "sourceName" : "ayush_demos_demos",
+          "sourceType" : "Table"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "jV4f0Hy3uMMLV0DGfU6aL$$afNhzPWV0B6SCGHSKiTWO",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "3mcCslgJj_69-IFv0DSzg$$3UP5FaxuSK0PBY-GjOnic",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Pipeline"
+}
