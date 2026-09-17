@@ -10,21 +10,7 @@
         "fields" : [ ]
       }
     },
-    "schedules" : [ {
-      "name" : "s3",
-      "scheduleType" : "cron",
-      "cron" : "0 0/1 * * * ? *",
-      "timeZone" : "Asia/Kolkata",
-      "emailOnSuccess" : false,
-      "emailOnFailure" : false,
-      "emailOnStart" : false,
-      "emails" : [ "g.ayush@prophecy.io" ],
-      "enabled" : true,
-      "runGenericDataTests" : false,
-      "triggers" : { },
-      "pipelineParameterSet" : "default",
-      "versionMode" : "latest"
-    } ],
+    "schedules" : [ ],
     "isTranspiledPipeline" : false,
     "publishDiagnosticMetrics" : false,
     "processesVsModelFiles" : {
