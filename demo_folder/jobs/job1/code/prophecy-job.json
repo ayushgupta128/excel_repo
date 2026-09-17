@@ -36,22 +36,22 @@
     }
   },
   "processes" : {
-    "7kpLHzHAis94hHXW99T__$$5Zsy8LsyRdXX4bOaty4vd" : {
-      "id" : "7kpLHzHAis94hHXW99T__$$5Zsy8LsyRdXX4bOaty4vd",
-      "component" : "AutomatePipeline",
+    "hh_0Iq6ZY2MbtAKyN_Drd$$9hFKoWXhG4kAk4eL8sgnM" : {
+      "id" : "hh_0Iq6ZY2MbtAKyN_Drd$$9hFKoWXhG4kAk4eL8sgnM",
+      "component" : "Model",
       "metadata" : {
-        "label" : "Pipeline_1",
-        "slug" : "Pipeline_1",
-        "x" : -740,
-        "y" : -580
+        "label" : "Model_1",
+        "slug" : "Model_1",
+        "x" : -1120,
+        "y" : -560
       },
       "ports" : {
         "inputs" : [ {
-          "id" : "STuzuYtVdy2aMxNwsYZmr$$jk_hGnQJar_StHWjvnnfD",
+          "id" : "Ji4qqqRF-DPuMosTWJoM3$$b081ofsSQVpLOzCWsoc5C",
           "slug" : ""
         } ],
         "outputs" : [ {
-          "id" : "4Eh9dJ-BwQwE7kdwX-9iX$$1OlEHZCfB1jGZu-difcA_",
+          "id" : "BJUqfHSyMbI37ch95kay4$$rDuK1k31SYNPQVF54Ctpk",
           "slug" : ""
         } ]
       },
@@ -71,19 +71,25 @@
         "onDurationWarningThresholdExceeded" : false
       },
       "properties" : {
-        "pipelineParameterSetName" : "default",
+        "entityId" : null,
+        "execSeed" : true,
+        "execRun" : false,
+        "gitEntity" : "tag",
+        "customVersion" : true,
         "projectId" : "253444",
-        "pipelineParameterSets" : [ "default" ],
-        "releaseTag" : "newdemoproject/1.0.0",
-        "projectParameterSets" : [ "default" ],
-        "configurations" : {
-          "selectedInstance" : "default",
-          "instances" : { },
-          "overrides" : { },
-          "schema" : [ ]
-        },
-        "projectParameterSetName" : "default",
-        "pipelineId" : ".prophecy/metadata/sqlorchestratorpipeline/p1"
+        "runOnlyModel" : "false",
+        "loadingModels" : false,
+        "entityName" : null,
+        "gitEntityValueTag" : "newdemoproject/1.0.0",
+        "profile" : "run_profile",
+        "sqlFabricId" : "36611",
+        "gitEntityValue" : "newdemoproject/1.0.0",
+        "execDeps" : false,
+        "gitEntityValueCommit" : null,
+        "sqlProjectType" : "databricks",
+        "gitEntityValueBranch" : null,
+        "execTest" : true,
+        "currentProjectModels" : [ ]
       },
       "conditional" : {
         "runIf" : "ALL_SUCCESS",
