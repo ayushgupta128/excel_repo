@@ -8,7 +8,33 @@ buildSystemDetails: null
 pipelines: {}
 datasets: {}
 templates: {}
-jobs: {}
+jobs:
+  jobs/job1:
+    name: job1
+    description: ''
+    fabricUID: 36611
+    scheduler:
+      Databricks: {}
+    cloudProvider: null
+    jobSize: prophecy_internal_jobs
+    scheduleCron: 0 0/1 * * * ? *
+    timeout: null
+    alerting:
+      emails: g.ayush@prophecy.io
+      onStart: false
+      onSuccess: false
+      onFailure: false
+    pipelines:
+    - .prophecy/metadata/sqlorchestratorpipeline/p1
+    jobClusterMode:
+      clusterMode:
+        Single: {}
+      clusterId: null
+    enabled: true
+    createdAt: '2026-09-17 10:18:35'
+    author: g.ayush@prophecy.io
+    models: []
+    sqlProjects: []
 gemContainer:
   languageVersion: ''
   gemLibsVersion: ''
@@ -108,6 +134,8 @@ sqlOrchestratorPipelines:
     files:
     - .prophecy/ide/pipelines/p1.json
     - pipelines/p1.py
+    - models/p1/p1__Reformat_1.sql
+    - models/p1/schema.yml
     createdAt: '2026-09-17 10:04:13'
 sqlBusinessApps: {}
 dbtDependencies:

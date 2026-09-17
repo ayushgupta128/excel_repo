@@ -26,38 +26,38 @@
       "versionMode" : "latest"
     } ],
     "isTranspiledPipeline" : false,
-    "publishDiagnosticMetrics" : false
+    "publishDiagnosticMetrics" : false,
+    "processesVsModelFiles" : {
+      "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr" : "models/p1/p1__Reformat_1.sql",
+      "bZYt56c3eC3100E2CaAdQ$$3MZQ37NO42hQiZvcS9JeB" : "models/p1/p1__Reformat_1.sql",
+      "Reformat_1_wylM4y923kHr23oQYgTcA$$Sg5QHi1W7Rm2HSVWsJCRJ" : "models/p1/p1__Reformat_1.sql"
+    }
   },
   "processes" : {
-    "bZYt56c3eC3100E2CaAdQ$$3MZQ37NO42hQiZvcS9JeB" : {
-      "id" : "bZYt56c3eC3100E2CaAdQ$$3MZQ37NO42hQiZvcS9JeB",
-      "component" : "Dataset",
+    "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr" : {
+      "id" : "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr",
+      "component" : "Model",
       "metadata" : {
-        "label" : "customer_events_tracking",
-        "x" : -140,
-        "y" : -280,
-        "phase" : 0,
-        "comment" : "Loads data from the ayush_demos_demos table for further processing in the pipeline.",
-        "autoUpdateComment" : true
+        "label" : "p1__Reformat_1",
+        "phase" : 0
       },
       "properties" : {
-        "table" : {
-          "name" : "a1",
-          "sourceType" : "Table",
-          "sourceName" : "ayush_demos_demos",
-          "alias" : ""
-        },
-        "writeOptions" : {
-          "writeMode" : "overwrite"
-        }
+        "modelName" : "p1__Reformat_1"
+      },
+      "visualMetaInfo" : {
+        "lastNodeProcessIds" : [ "Reformat_1_wylM4y923kHr23oQYgTcA$$Sg5QHi1W7Rm2HSVWsJCRJ" ],
+        "skipIfZeroRows" : false,
+        "visualProcessIds" : [ "Reformat_1_wylM4y923kHr23oQYgTcA$$Sg5QHi1W7Rm2HSVWsJCRJ", "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr", "bZYt56c3eC3100E2CaAdQ$$3MZQ37NO42hQiZvcS9JeB" ],
+        "type" : "ephemeral",
+        "isTemporaryTable" : true
       },
       "ports" : {
         "inputs" : [ {
-          "id" : "SOzq8LLU3zzcBJFXSEnSN$$VMcbPyMW2yOFhT392-JYW",
-          "slug" : "in"
+          "id" : "hfhMMzP1B5Lm_vn2y2S_r$$-3kpQHSmuMEGByIeDevMZ",
+          "slug" : "in_0"
         } ],
         "outputs" : [ {
-          "id" : "tKC-RrO3HOA5qurvVvL9n$$pNBOHOkldImgCAaHipb76",
+          "id" : "wylM4y923kHr23oQYgTcA$$Sg5QHi1W7Rm2HSVWsJCRJ",
           "slug" : "out"
         } ],
         "isCustomOutputSchema" : false

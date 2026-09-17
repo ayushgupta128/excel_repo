@@ -1,0 +1,100 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "36611",
+    "jobId" : "jobs/job1",
+    "name" : "job1",
+    "schedule" : "0 0/1 * * * ? *",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : true,
+    "defaultClusterSize" : "prophecy_internal_jobs",
+    "alerting" : {
+      "emails" : "g.ayush@prophecy.io",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false,
+      "onDurationWarningThresholdExceeded" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "alerting" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false,
+        "onDurationWarningThresholdExceeded" : false
+      },
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false,
+      "onDurationWarningThresholdExceeded" : false
+    }
+  },
+  "processes" : {
+    "7kpLHzHAis94hHXW99T__$$5Zsy8LsyRdXX4bOaty4vd" : {
+      "id" : "7kpLHzHAis94hHXW99T__$$5Zsy8LsyRdXX4bOaty4vd",
+      "component" : "AutomatePipeline",
+      "metadata" : {
+        "label" : "Pipeline_1",
+        "slug" : "Pipeline_1",
+        "x" : -740,
+        "y" : -580
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "STuzuYtVdy2aMxNwsYZmr$$jk_hGnQJar_StHWjvnnfD",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "4Eh9dJ-BwQwE7kdwX-9iX$$1OlEHZCfB1jGZu-difcA_",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "type" : "Inherited",
+        "alerting" : {
+          "emails" : "",
+          "onStart" : false,
+          "onSuccess" : false,
+          "onFailure" : false,
+          "onDurationWarningThresholdExceeded" : false
+        },
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false,
+        "onDurationWarningThresholdExceeded" : false
+      },
+      "properties" : {
+        "pipelineParameterSetName" : "default",
+        "projectId" : "253444",
+        "pipelineParameterSets" : [ "default" ],
+        "releaseTag" : "newdemoproject/1.0.0",
+        "projectParameterSets" : [ "default" ],
+        "configurations" : {
+          "selectedInstance" : "default",
+          "instances" : { },
+          "overrides" : { },
+          "schema" : [ ]
+        },
+        "projectParameterSetName" : "default",
+        "pipelineId" : ".prophecy/metadata/sqlorchestratorpipeline/p1"
+      },
+      "conditional" : {
+        "runIf" : "ALL_SUCCESS",
+        "forEach" : false,
+        "forEachConfig" : "",
+        "forEachConcurrency" : 1,
+        "forEachInputVariable" : "",
+        "forEachIterationCount" : null
+      },
+      "parent" : null
+    }
+  },
+  "connections" : [ ]
+}
