@@ -79,8 +79,8 @@
       "component" : "Source",
       "metadata" : {
         "label" : "customer_events_tracking",
-        "x" : -320,
-        "y" : -200,
+        "x" : -380,
+        "y" : -320,
         "phase" : 0,
         "comment" : "Loads data from the ayush_demos_demos table for further processing in the pipeline."
       },
