@@ -40,10 +40,11 @@
       "metadata" : {
         "label" : "customer_events_tracking",
         "x" : -380,
-        "y" : -320,
+        "y" : -420,
         "phase" : 0,
         "comment" : "Loads data from the ayush_demos_demos table for further processing in the pipeline.",
-        "autoUpdateComment" : true
+        "autoUpdateComment" : true,
+        "dataPreview" : false
       },
       "properties" : {
         "table" : {
