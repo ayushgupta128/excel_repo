@@ -9,6 +9,16 @@ Schedules = [Schedule(
                versionMode = "latest",
                cron = "0 0/1 * * * ? *",
                timezone = "Asia/Kolkata"
+             ),
+             Schedule(
+               Name = "s2",
+               emails = ["g.ayush@prophecy.io"],
+               emailOnStart = True,
+               emailOnFailure = True,
+               emailOnSuccess = True,
+               versionMode = "latest",
+               cron = "0 0/1 * * * ? *",
+               timezone = "Asia/Kolkata"
              )]
 args = PipelineArgs(label = "p1", version = 1, auto_layout = False, schedules = Schedules)
 
