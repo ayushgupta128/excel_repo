@@ -1,21 +1,8 @@
 from prophecy_pipeline_sdk.graph import *
 from prophecy_pipeline_sdk.properties import *
 Schedules = [Schedule(
-               Name = "s1",
+               Name = "s3",
                emails = ["g.ayush@prophecy.io"],
-               emailOnStart = True,
-               emailOnFailure = True,
-               emailOnSuccess = True,
-               versionMode = "latest",
-               cron = "0 0/1 * * * ? *",
-               timezone = "Asia/Kolkata"
-             ),
-             Schedule(
-               Name = "s2",
-               emails = ["g.ayush@prophecy.io"],
-               emailOnStart = True,
-               emailOnFailure = True,
-               emailOnSuccess = True,
                versionMode = "latest",
                cron = "0 0/1 * * * ? *",
                timezone = "Asia/Kolkata"
