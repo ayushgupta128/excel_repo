@@ -39,8 +39,8 @@
       "component" : "Dataset",
       "metadata" : {
         "label" : "customer_events_tracking",
-        "x" : -140,
-        "y" : -280,
+        "x" : -320,
+        "y" : -200,
         "phase" : 0,
         "comment" : "Loads data from the ayush_demos_demos table for further processing in the pipeline.",
         "autoUpdateComment" : true

@@ -6,7 +6,7 @@ sources:
   schema: "demos"
   tables:
   - name: "a1"
-    identifier: "customer"
+    identifier: "cust1"
     config:
       tags:
       - "pipeline:p1"
