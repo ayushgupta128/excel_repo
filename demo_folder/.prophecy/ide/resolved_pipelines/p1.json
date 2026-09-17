@@ -34,6 +34,35 @@
     }
   },
   "processes" : {
+    "mG5ya7_wZ-Tue56mefL_X$$8AJhYAjVH-ek08FMAuIKZ" : {
+      "id" : "mG5ya7_wZ-Tue56mefL_X$$8AJhYAjVH-ek08FMAuIKZ",
+      "component" : "Email",
+      "metadata" : {
+        "label" : "email_cust_events",
+        "x" : 240,
+        "y" : -320,
+        "phase" : 0,
+        "comment" : "Sends an email with the pipeline success update and attaches the processed data as an Excel file.",
+        "autoUpdateComment" : true
+      },
+      "properties" : {
+        "body" : "",
+        "subject" : "Pipeline Success",
+        "includeData" : true,
+        "fileName" : "file1.xlsx",
+        "to" : [ "g.ayush@prophecy.io" ],
+        "fileFormat" : "xlsx",
+        "hasTemplate" : false
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "II8JgQnEHLUV00hYWfJSM$$0Fzhg_yFlCTB_kYlndyC_",
+          "slug" : "in0"
+        } ],
+        "outputs" : [ ],
+        "isCustomOutputSchema" : false
+      }
+    },
     "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr" : {
       "id" : "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr",
       "component" : "Model",
@@ -64,6 +93,12 @@
       }
     }
   },
-  "connections" : [ ],
+  "connections" : [ {
+    "id" : "xFH4pUPnw_viCKRaXQBXJ$$uQBA9-Q6dRHP-6c10Qmd2",
+    "source" : "0DO5WgWxDlKz861m96JZ1$$lcYG9uCzp8o2QYIez0NPr",
+    "sourcePort" : "wylM4y923kHr23oQYgTcA$$Sg5QHi1W7Rm2HSVWsJCRJ",
+    "target" : "mG5ya7_wZ-Tue56mefL_X$$8AJhYAjVH-ek08FMAuIKZ",
+    "targetPort" : "II8JgQnEHLUV00hYWfJSM$$0Fzhg_yFlCTB_kYlndyC_"
+  } ],
   "component" : "Pipeline"
 }
