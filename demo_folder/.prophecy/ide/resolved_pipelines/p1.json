@@ -1,0 +1,54 @@
+{
+  "id" : "p1",
+  "metainfo" : {
+    "label" : "p1",
+    "autoLayout" : false,
+    "version" : 1,
+    "configuration" : {
+      "schema" : {
+        "type" : "record",
+        "fields" : [ ]
+      }
+    },
+    "isTranspiledPipeline" : false,
+    "publishDiagnosticMetrics" : false
+  },
+  "processes" : {
+    "bZYt56c3eC3100E2CaAdQ$$3MZQ37NO42hQiZvcS9JeB" : {
+      "id" : "bZYt56c3eC3100E2CaAdQ$$3MZQ37NO42hQiZvcS9JeB",
+      "component" : "Dataset",
+      "metadata" : {
+        "label" : "customer_events_tracking",
+        "x" : -140,
+        "y" : -280,
+        "phase" : 0,
+        "comment" : "Loads data from the ayush_demos_demos table for further processing in the pipeline.",
+        "autoUpdateComment" : true
+      },
+      "properties" : {
+        "table" : {
+          "name" : "a1",
+          "sourceType" : "Table",
+          "sourceName" : "ayush_demos_demos",
+          "alias" : ""
+        },
+        "writeOptions" : {
+          "writeMode" : "overwrite"
+        }
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "SOzq8LLU3zzcBJFXSEnSN$$VMcbPyMW2yOFhT392-JYW",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "tKC-RrO3HOA5qurvVvL9n$$pNBOHOkldImgCAaHipb76",
+          "slug" : "out"
+        } ],
+        "isCustomOutputSchema" : false
+      }
+    }
+  },
+  "connections" : [ ],
+  "component" : "Pipeline"
+}

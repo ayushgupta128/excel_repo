@@ -1,0 +1,29 @@
+---
+version: 2
+sources:
+- name: "ayush_demos_demos"
+  database: "ayush_demos"
+  schema: "demos"
+  tables:
+  - name: "a1"
+    identifier: "customer"
+    config:
+      tags:
+      - "pipeline:p1"
+    columns:
+    - name: "customer_id"
+      dataType:
+        type: "String"
+    - name: "event_type"
+      dataType:
+        type: "String"
+    - name: "event_time"
+      dataType:
+        type: "Timestamp"
+    - name: "country"
+      dataType:
+        type: "String"
+    - name: "city"
+      dataType:
+        type: "String"
+    type: "table"
